@@ -1,13 +1,9 @@
 import './App.css';
 
-const nikName = () => {
+const NikName = () => {
     return (
-      <div className='row text-center text-primary'>
-        <div className='col'>
-          <h2 className='my-5'>Nakia Callaway</h2>
-        </div>
-      </div>
+        <h2 className='my-5'>Nakia Callaway</h2>
     );
   };
   
-  export default nikName;   
+  export default NikName;   
