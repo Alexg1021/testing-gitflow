@@ -4,7 +4,7 @@
 const LudwinProfileComponent = () => {
 
     return (
-        <div className='App my-5'></div>
+        <div className='App my-5'>
         <h2>Ludwin Granados</h2>
         </div>
     );
