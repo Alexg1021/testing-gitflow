@@ -1,13 +1,13 @@
-import HarrisonProfileComponent from './Harrison';
+import HarrisonProfileComponent from './components/Harrison';
+import AlexProfileComponent from './components/AlexProfile';
+import LizProfile from './components/LizProfile';
+import MeruProfile from './components/MeruProfile';
+import BrittneyComponent from './components/BrittneyCProfile';
+import NikName from './components/nakiacallaway';
+import LudwinProfileComponent from './components/LudwinGranadosProfile';
+import PardeepProfile from './components/PardeepProfile';
+import Pravalika from './components/Pravalika';
 import './App.css';
-import AlexProfileComponent from './AlexProfile';
-import LizProfile from './LizProfile';
-import MeruProfile from './MeruProfile';
-import BrittneyComponent from './BrittneyCProfile';
-import NikName from './nakiacallaway';
-import LudwinProfileComponent from './LudwinGranadosProfile';
-import PardeepProfile from './PardeepProfile';
-import Pravalika from './Pravalika';
 
 const App = () => {
   return (
