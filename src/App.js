@@ -1,3 +1,4 @@
+import HarrisonProfileComponent from './Harrison';
 import './App.css';
 import AlexProfileComponent from './AlexProfile';
 import LizProfile from './LizProfile';
@@ -13,6 +14,7 @@ const App = () => {
       <LizProfile />
       <MeruProfile />
       <BrittneyComponent />
+      <HarrisonProfileComponent />
     </div>
   );
 };
