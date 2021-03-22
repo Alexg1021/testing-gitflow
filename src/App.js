@@ -4,6 +4,10 @@ import AlexProfileComponent from './AlexProfile';
 import LizProfile from './LizProfile';
 import MeruProfile from './MeruProfile';
 import BrittneyComponent from './BrittneyCProfile';
+import NikName from './nakiacallaway';
+import LudwinProfileComponent from './LudwinGranadosProfile';
+import PardeepProfile from './PardeepProfile';
+import Pravalika from './Pravalika';
 
 const App = () => {
   return (
@@ -15,6 +19,10 @@ const App = () => {
       <MeruProfile />
       <BrittneyComponent />
       <HarrisonProfileComponent />
+      <NikName />
+      <LudwinProfileComponent />
+      <PardeepProfile />
+      <Pravalika />
     </div>
   );
 };
