@@ -6,7 +6,7 @@ const BrittneyComponent = () =>{
         name: 'Brittney Cavazos',
         role: 'React Apprentice',
         motto: '~ Cool vibrations ~',
-        hobbies: ['Rhythm Games','Graphic Design','Animal Crosing'],
+        hobbies: ['Rhythm Games','Graphic Design','Animal Crossing'],
         email: 'brittney.cavazos@gmail.com',
         linkedin: 'https://www.linkedin.com/in/brittney-cavazos-83b056a9/',
         profileImg: brittney_image,
