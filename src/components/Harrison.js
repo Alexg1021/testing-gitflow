@@ -1,12 +1,13 @@
 import {useState} from 'react';
-import Harrison_profile from '../assets/WIN_20200627_02_34_21_Pro (2).jpg'
+import Harrison_profile from '../assets/WIN_20200627_02_34_21_Pro (2).jpg';
 const HarrisonProfileComponent = () =>{
     const [harrisonProfile, setHarrisonProfile] = useState({
         name:'Harrison Stamps',
         role: "Apprenticeship",
         motto: 'Win at being you!',
         email: 'hstamps4@gmail.com',
-        hobbies: ["Sports"," coding ", "traveling"]
+        hobbies: ["Sports"," coding ", "traveling"],
+        linkedIn: 'https://www.linkedin.com/in/harrison-stamps-201184142/'
     
     })
     return (
@@ -31,6 +32,7 @@ const HarrisonProfileComponent = () =>{
             </div>
             <div className="card-body">
                 <a href ={harrisonProfile.email} className="card-link">Email</a>
+                <a href ={harrisonProfile.linkedIn} className="card-link">linkedIn</a>
             </div>
 
         </div>
