@@ -27,7 +27,7 @@ const JeffreyProfile = () => {
           <h5 className='card-title text-secondary'>{jeffreyProfile.role}</h5>
           <p className='card-text'>"{jeffreyProfile.motto}"</p>
         </div>
-        <ul className='list-group list-group-flush text-center text-danger'>
+        <ul className='list-group list-group-flush font-weight-bold text-center text-danger'>
           <div className='list-group-item text-center'>
             <strong>Hobbies!</strong>
           </div>
@@ -47,7 +47,7 @@ const JeffreyProfile = () => {
         </a>
         <a
           href={jeffreyProfile.linkedIn}
-          className='card-link bg-lightgray'
+          className='card-link'
           target='_blank'
           rel='noreferrer noopener'>
           LinkedIn
