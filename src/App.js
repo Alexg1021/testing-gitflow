@@ -7,6 +7,7 @@ import NikName from './components/nakiacallaway';
 import LudwinProfileComponent from './components/LudwinGranadosProfile';
 import PardeepProfile from './components/PardeepProfile';
 import Pravalika from './components/Pravalika';
+import JeffreyProfile from './components/JeffreyProfile';
 import './App.css';
 
 const App = () => {
@@ -50,6 +51,9 @@ const App = () => {
       <div className='row'>
         <div className='col-sm-12 col-md-3'>
           <Pravalika />
+        </div>
+        <div className='col-sm-12 col-md-3'>
+          <JeffreyProfile />
         </div>
       </div>
     </div>
