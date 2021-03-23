@@ -13,7 +13,7 @@ const JeffreyProfile = () => {
   }); 
   
   return (
-      <div className="card">
+      <div className="card bg-dark">
         <div>
         <img
         src={jeffrey_profile}
@@ -22,7 +22,7 @@ const JeffreyProfile = () => {
         className='card-img-top'
         />
         </div>
-        <div className='card-body text-center text-info'>
+        <div className='card-body text-center text-warning'>
           <h3 className='card-title'>{jeffreyProfile.name}</h3>
           <h5 className='card-title text-secondary'>{jeffreyProfile.role}</h5>
           <p className='card-text'>"{jeffreyProfile.motto}"</p>
@@ -41,13 +41,13 @@ const JeffreyProfile = () => {
           );
         })}
       </ul>
-      <div className='card-body text-center'>
+      <div className='card-body text-center  bg-warning'>
         <a href={jeffreyProfile.email} className='card-link'>
           Email
         </a>
         <a
           href={jeffreyProfile.linkedIn}
-          className='card-link'
+          className='card-link bg-lightgray'
           target='_blank'
           rel='noreferrer noopener'>
           LinkedIn
