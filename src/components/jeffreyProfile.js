@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import jeffrey_profile from '../assets/jeff.jpg';
+import jeffrey_profile from '../assets/profile-pic.jpg';
 
 const JeffreyProfile = () => {
   const [jeffreyProfile, setJeffreyProfile] = useState ({
