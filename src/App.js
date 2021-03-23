@@ -1,25 +1,30 @@
-import logo from './logo.svg';
+import HarrisonProfileComponent from './Harrison';
 import './App.css';
+import AlexProfileComponent from './AlexProfile';
+import LizProfile from './LizProfile';
+import MeruProfile from './MeruProfile';
+import BrittneyComponent from './BrittneyCProfile';
+import NikName from './nakiacallaway';
+import LudwinProfileComponent from './LudwinGranadosProfile';
+import PardeepProfile from './PardeepProfile';
+import Pravalika from './Pravalika';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <h1>This is my App Component</h1>
+      <h3>From my ag-1 feature branch!</h3>
+      <AlexProfileComponent />
+      <LizProfile />
+      <MeruProfile />
+      <BrittneyComponent />
+      <HarrisonProfileComponent />
+      <NikName />
+      <LudwinProfileComponent />
+      <PardeepProfile />
+      <Pravalika />
     </div>
   );
-}
+};
 
 export default App;
