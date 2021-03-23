@@ -15,8 +15,6 @@ const Pravalika=()=>{
    <div className='card'>
      <img 
      src={PravalikaPic}
-    //  style={{height:'150 px'}}
-     style={{height: '150px', width: '150px'}}
      alt='Pravalika-Ammineni Profile'
      className='card-img-top'/>
      <div className='card-body text-center'>
