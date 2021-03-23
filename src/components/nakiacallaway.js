@@ -34,7 +34,6 @@ const NikName = () => {
             </li>
           );
         })}
-        ;
       </ul>
       <div class='card-body'>
         <a href={nakiaProfile.email} class='card-link'>
