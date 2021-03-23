@@ -8,7 +8,7 @@ const LudwinProfileComponent = () => {
         motto: 'It is what it is!',
         hobbies: ['Fishing' , 'Aquaterrarium', 'Building things', 'Reading'], // map will not work without using []
         email: 'ludwingranados@gmail.com',
-        linkedIn: '',
+        linkedIn: 'linkedin.com/in/ludwin-granados-358535195',
         profileImg: 'https://i.ibb.co/vQM2k7C/Hero-image.jpg',
     });
 
@@ -29,7 +29,7 @@ const LudwinProfileComponent = () => {
             <div className='list-group-item'>
               <strong>HOBBIES:</strong>
             </div>
-             {ludwinProfile.hobbies.map((hobby, index) => {
+             {ludwinProfile.hobbies.map((hobby, index) => {         // hobbies: must have [] to function 
               return (
                 <li className='list-group-item' key={index}>
                   {hobby}
