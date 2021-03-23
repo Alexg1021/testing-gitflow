@@ -14,7 +14,7 @@ const JeffreyProfile = () => {
   
   return (
       <div className="card">
-        <div className='row-'>
+        <div>
         <img
         src={jeffrey_profile}
         
@@ -22,12 +22,12 @@ const JeffreyProfile = () => {
         className='card-img-top'
         />
         </div>
-        <div className='card-body text-center'>
+        <div className='card-body text-center text-info'>
           <h3 className='card-title'>{jeffreyProfile.name}</h3>
           <h5 className='card-title text-secondary'>{jeffreyProfile.role}</h5>
           <p className='card-text'>"{jeffreyProfile.motto}"</p>
         </div>
-        <ul className='list-group list-group-flush text-center'>
+        <ul className='list-group list-group-flush text-center text-danger'>
           <div className='list-group-item text-center'>
             <strong>Hobbies!</strong>
           </div>
