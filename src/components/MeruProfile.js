@@ -19,12 +19,12 @@ const MeruProfile = () => {
 
     return (
 
-     <div className='card'  >
+     <div className='card'>
        <img src={meru} alt='Merhawit'  class='card-img-top' />
        <div class="card-body text-center">
-         <div className='card-title'>{merhawitProfile.name}</div>
-         <div className='card-title'>{merhawitProfile.role}</div>
-         <div className='card-title'>{merhawitProfile.motto}</div>
+         <h3 className='card-title'>{merhawitProfile.name}</h3>
+         <h5 className='card-title text-secondary'>{merhawitProfile.role}</h5>
+         <p className='card-text'>"{merhawitProfile.motto}"</p>
        </div>
        <ul class="list-group list-group-flush">
          <div className='list-group-item'>
