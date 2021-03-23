@@ -13,7 +13,7 @@ const LizProfile = () => {
 
   return (
     <div>
-      <div className="card" style={{width: '18rem'}}>
+      <div className="card">
         <img src={lizProfile.profileImg} class="card-img-top" alt="Liz Profile"></img>
         <div className="card-body">
           <h5 className="card-title">{lizProfile.name}</h5>
