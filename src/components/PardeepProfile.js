@@ -9,11 +9,11 @@ const PardeepProfileComponent = () => {
     motto: "Never give up!",
     hobbies: ['Basketball', 'Gaming','Movies'],
     email: 'pradeepsanghera@gmail.com',
-    Github: '',
+    linkedin: 'https://www.linkedin.com/in/pardeep-sanghera-993b8a209/',
     profileImg: ''
   });
     return (
-      <div className='Card'>
+      <div className='card'>
         <img src={Pardeep_Profile} alt="pardeep profile" className='card-img-top'/>
         <div className='card-body text-center'>
           <h3 className='card-title'>{pardeepprofile.name}</h3>
@@ -36,6 +36,9 @@ const PardeepProfileComponent = () => {
         <a href={pardeepprofile.email} className='card-link'>
           Email
         </a>
+        <a href={pardeepprofile.linkedin} className="card-link" target="blank" rel="noreferrer noopener">
+                    Linkedin
+                </a>
         </div>
       </div>
     );
