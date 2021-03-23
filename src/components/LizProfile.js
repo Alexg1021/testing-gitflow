@@ -12,7 +12,7 @@ const LizProfile = () => {
   })
 
   return (
-    <div className='App my-5 offset-5'>
+    <div>
       <div className="card" style={{width: '18rem'}}>
         <img src={lizProfile.profileImg} class="card-img-top" alt="Liz Profile"></img>
         <div className="card-body">
