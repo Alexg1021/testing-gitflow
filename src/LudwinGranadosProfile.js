@@ -16,7 +16,6 @@ const LudwinProfileComponent = () => {
         <div className='card'>
           <img
             src={ludwinProfile.profileImg}
-            style={{ height: '300px', width: '100%' }}
             alt='Ludwin Granados Profile'
             className='card-img-top'
           />
