@@ -29,7 +29,7 @@ const JeffreyProfile = () => {
         </div>
         <ul className='list-group list-group-flush font-weight-bold text-center text-danger'>
           <div className='list-group-item text-center'>
-            <strong>Hobbies!</strong>
+            <strong>Hobbies:</strong>
           </div>
           
           {jeffreyProfile.hobbies.map((hobby, index) => {
